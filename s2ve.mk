@@ -1,7 +1,7 @@
 # Include common makefile
 $(call inherit-product, device/samsung/galaxys2plus-common/common.mk)
 
-LOCAL_PATH := device/samsung/i9105
+LOCAL_PATH := device/samsung/s2ve
 
 # Init scripts
 PRODUCT_COPY_FILES += \
