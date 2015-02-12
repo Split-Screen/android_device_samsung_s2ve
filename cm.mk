@@ -1,9 +1,9 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-$(call inherit-product, device/samsung/i9105/full_i9105.mk)
+$(call inherit-product, device/samsung/s2ve/full_s2ve.mk)
 
-PRODUCT_DEVICE := i9105
-PRODUCT_NAME := cm_i9105
+PRODUCT_DEVICE := s2ve
+PRODUCT_NAME := cm_s2ve
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=s2vexx \
